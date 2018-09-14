@@ -8,6 +8,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { LoginComponent } from '../login/login.component';
 import { RegisterComponent } from '../login/register.component';
 import { NopagefoundComponent } from '../shared/nopagefound/nopagefound.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 const PAGES_ROUTES: Routes = [
     { path: '',
@@ -16,6 +17,7 @@ const PAGES_ROUTES: Routes = [
         { path: 'dashboard', component: DashboardComponent },
         { path: 'progress', component: ProgressComponent },
         { path: 'graficas1', component: Graficas1Component },
+        { path: 'account-settings', component: AccountSettingsComponent },
         { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
       ]
     }
